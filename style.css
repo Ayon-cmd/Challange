@@ -1,0 +1,209 @@
+
+*{
+    box-sizing: border-box;
+   font-family: serif bold;
+  
+    
+}
+
+
+
+
+
+.add-button{
+    background: hotpink;
+    
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    font-size: 1.5rem;
+    width: 5rem;
+    height: 3rem;
+    justify-content: center;
+   
+    align-items: center;
+    position: absolute;
+    top: -1.5rem;
+    right: 2rem;
+    
+
+}
+.c-card{
+    box-shadow: 0 0 3px 3px rgba(100, 100, 100, 0.4 );
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.c-navigation{
+    align-items: center;
+    background-color:rgb(131, 113, 187);
+    color: black;
+    font-family: 'Courier New', Courier, monospace bold;
+    height: 3rem;
+    padding: 0.1rem;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    
+
+
+
+}
+
+.c-date__day-of-weak{
+    font-size: 2rem;
+
+}
+.c-card__header{
+    background-image:  url('img/download.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 2rem;
+}
+.c-date__month{
+    text-transform: uppercase;
+    font-size: 1rem;
+   
+    
+    
+}
+.c-avatar{
+    background: #fff;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-image:  url('img/Holud.jpg');
+    background-size: 100%;
+    
+}
+.c-card-indicator{
+    
+    background-color: hotpink;
+    border-radius: 50%;
+    height:8px;
+    position: absolute;
+    width: 11px;
+    top:18px;
+   
+    
+}
+.c-date{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 2.5rem 2.5rem;
+   
+    
+    
+}
+.c-date__day{
+    font-size: 5rem;
+    margin-right: 1rem;
+   
+}
+
+
+
+
+
+
+.c-date{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+   
+}
+.c-timeline{
+    border-left: 1px solid #aaa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+   font-size: 25px;
+
+  
+    
+    
+   
+}
+.c-timeline > li{
+    display: flex;
+    position: relative;
+    padding-left: 3rem;
+    padding: 2rem ;
+    
+    
+    
+}
+.c-timeline > li + li{
+    padding-top: 2rem;
+}
+
+.c-timeline > li::before{
+
+    top: 45px;
+    border-radius: 2px solid dodgerblue;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: royalblue;
+    left: -5px;
+    position: absolute;
+    display: block;
+    border-radius: 50%;
+  
+    }
+    
+
+
+.c-timeline__time{
+    margin-right: 1rem;
+    width: 7rem;
+    
+    
+
+}
+.c-list__title{
+
+}
+.c-list__title__sub{
+    
+    
+}
+.c-card__body{
+    height:76vh;
+   position: relative;
+   padding-left: 50rem;
+   background-color:rgb(131, 113, 187);
+
+
+}
+
+h1{
+    text-transform: uppercase;
+    color: hsl(0, 82%, 48%);
+    padding-left: 50px;
+}
+
+h2{
+    padding-left: 50px;
+    color: red;
+}
+
+
+
+
+
+
+
+@media screen(min-width:600) {
+    .c-card__body{
+        width:100%
+    }
+    
+}
